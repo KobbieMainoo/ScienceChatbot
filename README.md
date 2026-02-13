@@ -8,11 +8,8 @@ The goal of this project is to bridge vision language model (VLM) with real-worl
 The repository includes:
 
 Model fine-tuning and evaluation code based on ScienceQA
-
 Multimodal inference pipeline
-
 Frontend interface for image upload and interaction
-
 Backend service for model deployment and API integration
 
 This work focuses on multimodal reasoning, answer prediction, and explanation generation for science visual question answering tasks.

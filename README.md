@@ -14,5 +14,5 @@ The repository includes:
 
 This work focuses on multimodal reasoning, answer prediction, and explanation generation for science visual question answering tasks.
 
-## 📖: Dataset: ScienceQA
+## 📖 Dataset: ScienceQA
 

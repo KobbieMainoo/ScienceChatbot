@@ -1,5 +1,6 @@
 # :sparkles: ScienceChatbot
 ScienceChatbot contains a full-stack educational visual reasoning chatbot based on Qwen3-VL. We fine-tune models on the ScienceQA dataset for multimodal question answering and explanation generation, and provide a front-end and back-end pipeline for image-based student question solving.
+
 ## :rocket: About
 ScienceChatbot presents an educational multimodal large language model system designed for multimodal question answering and reasoning in science-learning scenarios for students from elementary school to high school. The system is fine-tuned on the ScienceQA dataset and supports image-based problem input, answer prediction, and explanation generation.
 

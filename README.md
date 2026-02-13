@@ -13,3 +13,6 @@ The repository includes:
 * Backend service for model deployment and API integration
 
 This work focuses on multimodal reasoning, answer prediction, and explanation generation for science visual question answering tasks.
+
+## 📖: Dataset: ScienceQA
+

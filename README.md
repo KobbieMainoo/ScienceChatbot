@@ -10,8 +10,7 @@ The repository includes:
 
 * Model fine-tuning and evaluation code based on ScienceQA
 * Multimodal inference pipeline
-* Frontend interface for image upload and interaction
-* Backend service for model deployment and API integration
+* Frontend interface and backend service 
 
 This work focuses on multimodal reasoning, answer prediction, and explanation generation for science visual question answering tasks.
 

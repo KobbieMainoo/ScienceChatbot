@@ -16,29 +16,23 @@ The repository includes:
 This work focuses on multimodal reasoning, answer prediction, and explanation generation for science visual question answering tasks.
 
 ## 📖 Dataset: ScienceQA
-This project is built upon the ScienceQA dataset [link](https://github.com/lupantech/ScienceQA), a multimodal multiple-choice question answering benchmark designed for elementary and high school science education.
+This project is built upon the [ScienceQA](https://github.com/lupantech/ScienceQA) dataset, a multimodal multiple-choice question answering benchmark designed for elementary and high school science education.
 
-According to the original ScienceQA paper, the dataset contains over 20,000 science questions covering diverse subjects such as natural science, social science, and language science. Each question may include:
+According to the original [ScienceQA](https://lupantech.github.io/papers/neurips22_scienceqa.pdf) paper, the dataset contains over 20,000 science questions covering diverse subjects such as natural science, social science, and language science. Each question may include:
 
-A question stem
-
-Multiple answer choices
-
-Optional image context (e.g., diagrams, illustrations, charts)
-
-Supporting textual context
-
-A human-written rationale explaining the correct answer
+* A question stem
+* Multiple answer choices
+* Optional image context (e.g., diagrams, illustrations, charts)
+* Supporting textual context
+* A human-written rationale explaining the correct answer
 
 ScienceQA is specifically designed to evaluate multimodal reasoning, requiring models to integrate visual information with textual context and domain knowledge to produce accurate answers.
 
 In this project, ScienceQA serves as:
 
-The primary benchmark for fine-tuning the vision-language model
-
-A supervised source for answer prediction and explanation generation
-
-A testbed for studying image-grounded educational reasoning
-
+* The primary benchmark for fine-tuning the vision-language model
+* A supervised source for answer prediction and explanation generation
+* A testbed for studying image-grounded educational reasoning
+* 
 By leveraging ScienceQA, the system aims to bridge multimodal large language models with real-world educational applications.
 

@@ -33,6 +33,6 @@ In this project, ScienceQA serves as:
 * The primary benchmark for fine-tuning the vision-language model
 * A supervised source for answer prediction and explanation generation
 * A testbed for studying image-grounded educational reasoning
-* 
+
 By leveraging ScienceQA, the system aims to bridge multimodal large language models with real-world educational applications.
 

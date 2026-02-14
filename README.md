@@ -2,7 +2,7 @@
 ScienceChatbot contains a full-stack educational visual reasoning chatbot based on Qwen3-VL. We fine-tune models on the ScienceQA dataset for multimodal question answering and explanation generation, and provide a front-end and back-end pipeline for image-based student question solving.
 
 ## :rocket: About
-ScienceChatbot presents an educational multimodal large language model system designed for multimodal question answering and reasoning in science-learning scenarios for students from elementary school to high school. The system is fine-tuned on the ScienceQA dataset and supports image-based problem input, answer prediction, and explanation generation.
+ScienceChatbot presents an educational multimodal large language model system designed for multimodal question answering and reasoning in science-learning scenarios for students in elementary school and high school. The system is fine-tuned on the ScienceQA dataset and supports image-based problem input, answer prediction, and explanation generation.
 
 The goal of this project is to bridge vision language model (VLM) with real-world educational applications, enabling students to upload question images (e.g., science diagrams, charts) and receive both the correct answer and detailed explanations.
 
@@ -16,4 +16,29 @@ The repository includes:
 This work focuses on multimodal reasoning, answer prediction, and explanation generation for science visual question answering tasks.
 
 ## 📖 Dataset: ScienceQA
+This project is built upon the ScienceQA dataset [link](https://github.com/lupantech/ScienceQA), a multimodal multiple-choice question answering benchmark designed for elementary and high school science education.
+
+According to the original ScienceQA paper, the dataset contains over 20,000 science questions covering diverse subjects such as natural science, social science, and language science. Each question may include:
+
+A question stem
+
+Multiple answer choices
+
+Optional image context (e.g., diagrams, illustrations, charts)
+
+Supporting textual context
+
+A human-written rationale explaining the correct answer
+
+ScienceQA is specifically designed to evaluate multimodal reasoning, requiring models to integrate visual information with textual context and domain knowledge to produce accurate answers.
+
+In this project, ScienceQA serves as:
+
+The primary benchmark for fine-tuning the vision-language model
+
+A supervised source for answer prediction and explanation generation
+
+A testbed for studying image-grounded educational reasoning
+
+By leveraging ScienceQA, the system aims to bridge multimodal large language models with real-world educational applications.
 

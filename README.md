@@ -50,3 +50,26 @@ This project is built upon Qwen3-VL-8B-Instruct, an instruction-tuned large-scal
 * Step-by-step explanation generation
 
 The model accepts interleaved image and text inputs and generates natural language outputs conditioned on both modalities.
+
+### 📱 Model Input 
+
+The model follows an interleaved multimodal message structure:
+
+'''
+messages = [
+    {
+        "role": "system",
+        "content": [{"type": "text", "text": system_prompt}],
+    },
+    {
+        "role": "user",
+        "content": [
+            {"type": "image", "image": "path/to/image.png"},
+            {"type": "text", "text": question_and_options},
+        ],
+    },
+]
+'''
+
+The image is provided first, followed by the textual question and answer options.
+This allows the model to perform image-grounded reasoning over the provided visual context.

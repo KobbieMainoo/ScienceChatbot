@@ -55,7 +55,7 @@ The model accepts interleaved image and text inputs and generates natural langua
 
 The model follows an interleaved multimodal message structure:
 
-'''
+···
 messages = [
     {
         "role": "system",
@@ -69,7 +69,7 @@ messages = [
         ],
     },
 ]
-'''
+···
 
 The image is provided first, followed by the textual question and answer options.
 This allows the model to perform image-grounded reasoning over the provided visual context.

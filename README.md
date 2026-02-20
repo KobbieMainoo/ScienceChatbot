@@ -42,11 +42,8 @@ By leveraging ScienceQA, the system aims to bridge multimodal large language mod
 This project is built upon [Qwen3-VL-8B-Instruct](https://huggingface.co/Qwen/Qwen3-VL-8B-Instruct), an instruction-tuned large-scale vision-language model developed by Alibaba Cloud. The model integrates visual encoding and large language modeling capabilities, enabling joint reasoning over image and text inputs.
 
 * Image-text understanding
-
 * Multimodal reasoning
-
 * Visual question answering
-
 * Step-by-step explanation generation
 
 The model accepts interleaved image and text inputs and generates natural language outputs conditioned on both modalities.
@@ -79,7 +76,6 @@ This allows the model to perform image-grounded reasoning over the provided visu
 The model is prompted to generate:
 
 * A single correct answer (e.g., A/B/C/D)
-
 * A structured explanation (rationale) supporting the prediction
 
 This aligns with the ScienceQA setting, which includes human-written rationales.

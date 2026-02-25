@@ -102,7 +102,7 @@ exceptiongroup==1.3.0
     #   anyio
     #   hypercorn
     #   taskgroup
-fixedint==0.1.6
+fixedint==0.2.0
     # via azure-monitor-opentelemetry-exporter
 flask==3.1.2
     # via quart
